@@ -1,7 +1,103 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mlt LC_NUMERIC="C" producer="main_bin" root="/home/moti/Pictures/Memes/src" version="7.32.0">
  <profile colorspace="709" description="HD 1080p 29.97 fps" display_aspect_den="9" display_aspect_num="16" frame_rate_den="1001" frame_rate_num="30000" height="1080" progressive="1" sample_aspect_den="1" sample_aspect_num="1" width="1920"/>
- <producer id="producer0" in="00:00:00.000" out="00:09:13.680">
+ <chain id="chain3" out="00:00:59.726">
+  <property name="length">1791</property>
+  <property name="eof">pause</property>
+  <property name="resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="astream">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:file_size">2774368</property>
+  <property name="kdenlive:file_hash">e38309aebfdfdab3ab390f2721150bdb</property>
+  <property name="kdenlive:monitorPosition">18</property>
+ </chain>
+ <chain id="chain4" out="00:04:13.914">
+  <property name="length">7610</property>
+  <property name="eof">pause</property>
+  <property name="resource">/tmp/RFC 2119 [2121755313].m4a</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.layout">stereo</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">160000</property>
+  <property name="meta.attr.0.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:control_uuid">{009b1c32-411a-4930-8827-04d4958b4b35}</property>
+  <property name="kdenlive:clip_type">1</property>
+  <property name="kdenlive:file_size">5122824</property>
+  <property name="kdenlive:file_hash">ba0229342f381cc6d8a3f3067a62588b</property>
+  <property name="kdenlive:monitorPosition">0</property>
+ </chain>
+ <producer id="producer0" in="00:00:00.000" out="00:09:16.016">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -11,13 +107,93 @@
   <property name="mlt_image_format">rgba</property>
   <property name="set.test_audio">0</property>
  </producer>
+ <chain id="chain0" out="00:00:59.726">
+  <property name="length">1791</property>
+  <property name="eof">pause</property>
+  <property name="resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="mute_on_pause">0</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:file_size">2774368</property>
+  <property name="kdenlive:file_hash">e38309aebfdfdab3ab390f2721150bdb</property>
+  <property name="kdenlive:monitorPosition">18</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </chain>
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
+  <blank length="00:04:13.113"/>
+  <entry in="00:00:45.846" out="00:00:48.715" producer="chain0">
+   <property name="kdenlive:id">4</property>
+   <property name="kdenlive:activeeffect">0</property>
+   <filter id="filter0" in="00:00:45.846" out="00:00:46.179">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
  </playlist>
- <tractor id="tractor0" in="00:00:00.000">
+ <tractor id="tractor0" in="00:00:00.000" out="00:04:15.983">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">72</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -26,28 +202,28 @@
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist0"/>
   <track hide="video" producer="playlist1"/>
-  <filter id="filter0">
+  <filter id="filter1">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter1">
+  <filter id="filter2">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter2">
+  <filter id="filter3">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain0" out="00:04:13.914">
+ <chain id="chain1" out="00:04:13.914">
   <property name="length">7610</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/RFC 2119 [2121755313].m4a</property>
@@ -84,7 +260,7 @@
  </chain>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <entry in="00:00:00.267" out="00:04:13.914" producer="chain0">
+  <entry in="00:00:00.267" out="00:04:13.914" producer="chain1">
    <property name="kdenlive:id">5</property>
   </entry>
  </playlist>
@@ -100,28 +276,28 @@
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist2"/>
   <track hide="video" producer="playlist3"/>
-  <filter id="filter3">
+  <filter id="filter4">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter4">
+  <filter id="filter5">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter5">
+  <filter id="filter6">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="dbpeak">1</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain1" out="00:00:59.726">
+ <chain id="chain2" out="00:00:59.726">
   <property name="length">1791</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
@@ -955,14 +1131,973 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer id="producer13" in="00:00:00.000" out="00:00:43.710">
+  <property name="length">1312</property>
+  <property name="eof">pause</property>
+  <property name="resource">1.365470:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">1.36547</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer14" in="00:00:00.000" out="00:00:59.726">
+  <property name="length">1791</property>
+  <property name="eof">pause</property>
+  <property name="resource">-1.000000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">-1</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer15" in="00:00:00.000" out="00:00:49.750">
+  <property name="length">1493</property>
+  <property name="eof">pause</property>
+  <property name="resource">1.200000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">1.2</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer16" in="00:00:00.000" out="00:00:45.913">
+  <property name="length">1378</property>
+  <property name="eof">pause</property>
+  <property name="resource">1.300000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">1.3</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer17" in="00:00:00.000" out="00:00:59.726">
+  <property name="length">1791</property>
+  <property name="eof">pause</property>
+  <property name="resource">-1.000000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">-1</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer18" in="00:00:00.000" out="00:01:14.648">
+  <property name="length">2239</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.800000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.8</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer19" in="00:00:00.000" out="00:01:14.648">
+  <property name="length">2239</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.800000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.8</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer20" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer21" in="00:00:00.000" out="00:01:14.648">
+  <property name="length">2239</property>
+  <property name="eof">pause</property>
+  <property name="resource">-0.800000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">-0.8</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer22" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer23" in="00:00:00.000" out="00:01:14.648">
+  <property name="length">2239</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.800000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.8</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer24" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer25" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer26" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer27" in="00:00:00.000" out="00:02:11.645">
+  <property name="length">3947</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.453782:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.453782</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="playlist4">
-  <entry in="00:00:22.356" out="00:00:26.760" producer="chain1">
+  <entry in="00:00:22.356" out="00:00:26.760" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:16.817" out="00:00:20.087" producer="chain1">
+  <entry in="00:00:16.817" out="00:00:20.087" producer="chain2">
    <property name="kdenlive:id">4</property>
-   <property name="kdenlive:activeeffect">0</property>
-   <filter id="filter6" in="00:00:19.553" out="00:00:20.087">
+   <filter id="filter7" in="00:00:19.553" out="00:00:20.087">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -972,51 +2107,37 @@
    </filter>
   </entry>
   <blank length="00:00:05.072"/>
-  <entry in="00:00:14.715" out="00:00:15.549" producer="chain1">
+  <entry in="00:00:14.715" out="00:00:15.549" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:07.174" out="00:00:10.277" producer="chain1">
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
   <entry in="00:00:48.248" out="00:00:49.049" producer="producer1">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:11.144" out="00:00:14.314" producer="chain1">
+  <entry in="00:00:11.144" out="00:00:14.314" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:14.348" out="00:00:15.883" producer="chain1">
+  <entry in="00:00:14.348" out="00:00:15.883" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:27.027" out="00:00:29.830" producer="chain1">
+  <entry in="00:00:27.027" out="00:00:29.830" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:11.144" out="00:00:12.913" producer="chain1">
+  <entry in="00:00:11.144" out="00:00:12.913" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:33.767" out="00:00:34.768" producer="chain1">
+  <entry in="00:00:33.767" out="00:00:34.768" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:35.669" out="00:00:36.970" producer="chain1">
+  <entry in="00:00:35.669" out="00:00:36.970" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
   <entry in="00:00:29.096" out="00:00:29.863" producer="producer2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:07.508" out="00:00:10.277" producer="chain1">
-   <property name="kdenlive:id">4</property>
-   <filter id="filter7">
-    <property name="mlt_service">avfilter.hflip</property>
-    <property name="kdenlive_id">avfilter.hflip</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <entry in="00:00:11.144" out="00:00:14.248" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:16.884" out="00:00:18.552" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:54.821" out="00:00:58.892" producer="producer3">
+  <entry in="00:00:07.508" out="00:00:10.277" producer="chain2">
    <property name="kdenlive:id">4</property>
    <filter id="filter8">
     <property name="mlt_service">avfilter.hflip</property>
@@ -1024,31 +2145,45 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry in="00:00:25.425" out="00:00:27.961" producer="chain1">
+  <entry in="00:00:11.144" out="00:00:14.248" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:33.734" out="00:00:34.568" producer="chain1">
+  <entry in="00:00:16.884" out="00:00:18.552" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:35.702" out="00:00:36.970" producer="chain1">
+  <entry in="00:00:54.821" out="00:00:58.892" producer="producer3">
+   <property name="kdenlive:id">4</property>
+   <filter id="filter9">
+    <property name="mlt_service">avfilter.hflip</property>
+    <property name="kdenlive_id">avfilter.hflip</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:27.961" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:33.767" out="00:00:34.568" producer="chain1">
+  <entry in="00:00:33.734" out="00:00:34.568" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:35.669" out="00:00:36.537" producer="chain1">
+  <entry in="00:00:35.702" out="00:00:36.970" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:24.424" out="00:00:26.994" producer="chain1">
+  <entry in="00:00:33.767" out="00:00:34.568" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:35.702" out="00:00:36.970" producer="chain1">
+  <entry in="00:00:35.669" out="00:00:36.537" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:22.356" out="00:00:29.830" producer="chain1">
+  <entry in="00:00:24.424" out="00:00:26.994" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:25.425" out="00:00:26.994" producer="chain1">
+  <entry in="00:00:35.702" out="00:00:36.970" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:22.356" out="00:00:29.830" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:26.994" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
   <entry in="00:00:27.928" out="00:00:31.465" producer="producer4">
@@ -1057,16 +2192,16 @@
   <entry in="00:00:36.303" out="00:00:38.572" producer="producer5">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:07.174" out="00:00:10.277" producer="chain1">
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:16.817" out="00:00:20.087" producer="chain1">
+  <entry in="00:00:16.817" out="00:00:20.087" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:03.504" out="00:00:06.607" producer="chain1">
+  <entry in="00:00:03.504" out="00:00:06.607" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:07.174" out="00:00:10.143" producer="chain1">
+  <entry in="00:00:07.174" out="00:00:10.143" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
   <entry in="00:00:29.196" out="00:00:30.430" producer="producer6">
@@ -1078,10 +2213,10 @@
   <entry in="00:00:27.928" out="00:00:31.465" producer="producer8">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:11.144" out="00:00:12.913" producer="chain1">
+  <entry in="00:00:11.144" out="00:00:12.913" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:16.884" out="00:00:20.087" producer="chain1">
+  <entry in="00:00:16.884" out="00:00:20.087" producer="chain2">
    <property name="kdenlive:id">4</property>
   </entry>
   <entry in="00:00:49.650" out="00:00:51.318" producer="producer9">
@@ -1089,12 +2224,12 @@
   </entry>
   <entry in="00:00:27.928" out="00:00:31.465" producer="producer10">
    <property name="kdenlive:id">4</property>
-   <filter id="filter9">
+   <filter id="filter10">
     <property name="mlt_service">avfilter.hflip</property>
     <property name="kdenlive_id">avfilter.hflip</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter10" in="00:00:30.264" out="00:00:31.465">
+   <filter id="filter11" in="00:00:30.264" out="00:00:31.465">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1106,15 +2241,7 @@
   <entry in="00:00:25.058" out="00:00:28.695" producer="producer11">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry in="00:00:03.737" out="00:00:06.640" producer="chain1">
-   <property name="kdenlive:id">4</property>
-   <filter id="filter11">
-    <property name="mlt_service">avfilter.hflip</property>
-    <property name="kdenlive_id">avfilter.hflip</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <entry in="00:00:07.174" out="00:00:10.277" producer="chain1">
+  <entry in="00:00:03.737" out="00:00:06.640" producer="chain2">
    <property name="kdenlive:id">4</property>
    <filter id="filter12">
     <property name="mlt_service">avfilter.hflip</property>
@@ -1122,7 +2249,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry in="00:00:03.737" out="00:00:05.038" producer="chain1">
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain2">
    <property name="kdenlive:id">4</property>
    <filter id="filter13">
     <property name="mlt_service">avfilter.hflip</property>
@@ -1130,22 +2257,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry in="00:00:33.734" out="00:00:34.701" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:25.592" out="00:00:26.026" producer="producer12">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:17.518" out="00:00:18.285" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:22.356" out="00:00:23.323" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:16.416" out="00:00:20.053" producer="chain1">
-   <property name="kdenlive:id">4</property>
-  </entry>
-  <entry in="00:00:07.174" out="00:00:10.277" producer="chain1">
+  <entry in="00:00:03.737" out="00:00:05.038" producer="chain2">
    <property name="kdenlive:id">4</property>
    <filter id="filter14">
     <property name="mlt_service">avfilter.hflip</property>
@@ -1153,9 +2265,153 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <entry in="00:00:33.734" out="00:00:34.701" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.592" out="00:00:26.026" producer="producer12">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:17.518" out="00:00:18.285" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:22.356" out="00:00:23.323" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:16.416" out="00:00:20.053" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain2">
+   <property name="kdenlive:id">4</property>
+   <filter id="filter15">
+    <property name="mlt_service">avfilter.hflip</property>
+    <property name="kdenlive_id">avfilter.hflip</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter16" in="00:00:09.076" out="00:00:10.277">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.201=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:04.905"/>
+  <entry in="00:00:35.802" out="00:00:36.937" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:12.579" out="00:00:14.581" producer="producer13">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:22.356" out="00:00:26.994" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:26.960" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:32.766" out="00:00:34.301" producer="producer14">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:26.960" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:29.796" out="00:00:30.764" producer="producer15">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:22.356" out="00:00:25.292" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:35.669" out="00:00:36.270" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:27.895" out="00:00:28.395" producer="producer16">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:26.960" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:32.766" out="00:00:34.301" producer="producer17">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.425" out="00:00:26.960" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:16.884" out="00:00:20.087" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:49.650" out="00:00:51.318" producer="producer18">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:27.928" out="00:00:31.698" producer="producer19">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:17.751" out="00:00:20.087" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:25.058" out="00:00:29.830" producer="chain2">
+   <property name="kdenlive:id">4</property>
+   <property name="kdenlive:activeeffect">0</property>
+   <filter id="filter17" in="00:00:29.196" out="00:00:29.830">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.634=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:20.754"/>
+  <entry in="00:00:50.384" out="00:00:51.885" producer="producer20">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:04.137" out="00:00:20.087" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:42.976" out="00:00:46.747" producer="producer21">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:35.736" out="00:00:36.970" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:56.890" out="00:01:01.101" producer="producer22">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:49.650" out="00:00:51.985" producer="producer23">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:08.609" out="00:00:15.883" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:22.356" out="00:00:27.261" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:27.294" out="00:00:29.830" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:01:04.271" out="00:01:05.439" producer="producer24">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:27.294" out="00:00:29.830" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:50.450" out="00:00:51.852" producer="producer25">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:54.988" out="00:00:58.659" producer="producer26">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:38.138" out="00:00:43.143" producer="chain2">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:01:35.135" out="00:01:39.072" producer="producer27">
+   <property name="kdenlive:id">4</property>
+  </entry>
  </playlist>
  <playlist id="playlist5"/>
- <tractor id="tractor2" in="00:00:00.000" out="00:02:03.136">
+ <tractor id="tractor2" in="00:00:00.000" out="00:04:12.212">
   <property name="kdenlive:trackheight">72</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1164,7 +2420,7 @@
   <track hide="audio" producer="playlist4"/>
   <track hide="audio" producer="playlist5"/>
  </tractor>
- <chain id="chain2" out="00:00:59.726">
+ <chain id="chain5" out="00:00:59.726">
   <property name="length">1791</property>
   <property name="eof">pause</property>
   <property name="resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
@@ -1231,23 +2487,151 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </chain>
+ <producer id="producer28" in="00:00:00.000" out="00:01:46.680">
+  <property name="length">3198</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.560000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.56</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer29" in="00:00:00.000" out="00:01:31.899">
+  <property name="length">2755</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.650000:/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">640</property>
+  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">libdav1d</property>
+  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.layout">stereo</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
+  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
+  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
+  <property name="meta.attr.MINOR_VERSION.markup">0</property>
+  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="format">3</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="warp_speed">0.65</property>
+  <property name="warp_resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
+  <property name="vstream">0</property>
+  <property name="astream">0</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">640</property>
+  <property name="meta.media.height">480</property>
+  <property name="meta.media.aspect_ratio">1</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="playlist6">
   <blank length="00:00:07.174"/>
-  <entry in="00:00:00.667" out="00:00:06.273" producer="chain2">
+  <entry in="00:00:00.667" out="00:00:06.273" producer="chain5">
    <property name="kdenlive:id">4</property>
-   <property name="kdenlive:activeeffect">0</property>
-   <filter id="filter15" in="00:00:00.667" out="00:00:01.101">
+   <filter id="filter18" in="00:00:00.667" out="00:00:01.101">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:00.434=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <blank length="00:01:23.290"/>
-  <entry in="00:00:22.356" out="00:00:28.228" producer="chain2">
+  <entry in="00:00:22.356" out="00:00:28.228" producer="chain5">
    <property name="kdenlive:id">4</property>
-   <filter id="filter16" in="00:00:22.356" out="00:00:23.590">
+   <filter id="filter19" in="00:00:22.356" out="00:00:23.590">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1256,9 +2640,46 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <blank length="00:00:19.953"/>
+  <entry in="00:00:07.174" out="00:00:10.277" producer="chain5">
+   <property name="kdenlive:id">4</property>
+   <filter id="filter20" in="00:00:07.174" out="00:00:08.342">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.168=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:48.248" out="00:00:49.049" producer="producer28">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry in="00:00:11.144" out="00:00:13.247" producer="chain5">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <blank length="00:00:40.741"/>
+  <entry in="00:00:00.667" out="00:00:20.120" producer="chain5">
+   <property name="kdenlive:id">4</property>
+   <filter id="filter21" in="00:00:00.667" out="00:00:01.101">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.434=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry in="00:00:30.998" out="00:00:32.966" producer="producer29">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <blank length="00:01:01.935"/>
+  <entry in="00:00:44.978" out="00:00:48.715" producer="chain5">
+   <property name="kdenlive:id">4</property>
+  </entry>
  </playlist>
  <playlist id="playlist7"/>
- <tractor id="tractor3" in="00:00:00.000" out="00:01:41.975">
+ <tractor id="tractor3" in="00:00:00.000" out="00:04:15.983">
   <property name="kdenlive:trackheight">72</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1267,10 +2688,14 @@
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
- <producer id="producer13" in="00:00:00.000" out="00:00:00.801">
+ <producer id="producer30" in="00:00:00.000" out="00:00:00.801">
   <property name="length">25</property>
   <property name="eof">pause</property>
   <property name="resource">/home/moti/.cache/kdenlive/1751423805825/preview/0.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -1296,10 +2721,6 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="vstream">0</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
@@ -1312,11 +2733,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:remove">1</property>
  </producer>
- <producer id="producer14" in="00:00:00.000" out="00:00:00.801">
+ <producer id="producer31" in="00:00:00.000" out="00:00:00.801">
   <property name="length">25</property>
   <property name="eof">pause</property>
   <property name="resource">/home/moti/.cache/kdenlive/1751423805825/preview/25.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -1342,10 +2768,6 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="vstream">0</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
@@ -1358,11 +2780,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:remove">1</property>
  </producer>
- <producer id="producer15" in="00:00:00.000" out="00:00:00.801">
+ <producer id="producer32" in="00:00:00.000" out="00:00:00.801">
   <property name="length">25</property>
   <property name="eof">pause</property>
   <property name="resource">/home/moti/.cache/kdenlive/1751423805825/preview/50.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -1388,10 +2815,6 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="vstream">0</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
@@ -1404,11 +2827,16 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:remove">1</property>
  </producer>
- <producer id="producer16" in="00:00:00.000" out="00:00:00.801">
+ <producer id="producer33" in="00:00:00.000" out="00:00:00.801">
   <property name="length">25</property>
   <property name="eof">pause</property>
   <property name="resource">/home/moti/.cache/kdenlive/1751423805825/preview/75.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -1434,10 +2862,6 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
   <property name="format">3</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="vstream">0</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
@@ -1450,47 +2874,49 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:remove">1</property>
  </producer>
  <playlist id="playlist8">
   <property name="kdenlive:playlistid">timeline_preview</property>
-  <entry in="00:00:00.000" out="00:00:00.801" producer="producer13"/>
-  <entry in="00:00:00.000" out="00:00:00.801" producer="producer14"/>
-  <entry in="00:00:00.000" out="00:00:00.801" producer="producer15"/>
-  <entry in="00:00:00.000" out="00:00:00.801" producer="producer16"/>
+  <entry in="00:00:00.000" out="00:00:00.801" producer="producer30"/>
+  <entry in="00:00:00.000" out="00:00:00.801" producer="producer31"/>
+  <entry in="00:00:00.000" out="00:00:00.801" producer="producer32"/>
+  <entry in="00:00:00.000" out="00:00:00.801" producer="producer33"/>
  </playlist>
- <tractor id="{cd07f631-090f-4e05-b545-ef75e8713eec}" in="00:00:00.000" out="00:04:13.647">
-  <property name="kdenlive:uuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
+ <tractor id="tractor4" in="00:00:00.000" out="00:04:15.983">
+  <property name="kdenlive:duration">00:04:16.016</property>
+  <property name="kdenlive:maxduration">7672</property>
   <property name="kdenlive:clipname">Sequence 1</property>
-  <property name="kdenlive:sequenceproperties.hasAudio">1</property>
-  <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">2</property>
-  <property name="kdenlive:sequenceproperties.tracksCount">3</property>
-  <property name="kdenlive:sequenceproperties.documentuuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
-  <property name="kdenlive:control_uuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
-  <property name="kdenlive:duration">00:04:13.680</property>
-  <property name="kdenlive:maxduration">7602</property>
+  <property name="kdenlive:description"/>
+  <property name="kdenlive:uuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="kdenlive:producer_type">17</property>
+  <property name="kdenlive:control_uuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="kdenlive:id">3</property>
   <property name="kdenlive:clip_type">0</property>
-  <property name="kdenlive:file_size">0</property>
+  <property name="kdenlive:file_hash">c513d7d216b6bef3b3124c78ec877a5d</property>
   <property name="kdenlive:folderid">2</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">0</property>
   <property name="kdenlive:sequenceproperties.audioTarget">1</property>
   <property name="kdenlive:sequenceproperties.disablepreview">0</property>
-  <property name="kdenlive:sequenceproperties.position">3658</property>
+  <property name="kdenlive:sequenceproperties.documentuuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
+  <property name="kdenlive:sequenceproperties.hasAudio">1</property>
+  <property name="kdenlive:sequenceproperties.hasVideo">1</property>
+  <property name="kdenlive:sequenceproperties.position">7671</property>
+  <property name="kdenlive:sequenceproperties.previewchunks">0-75</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
+  <property name="kdenlive:sequenceproperties.tracksCount">3</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
   <property name="kdenlive:sequenceproperties.zoneout">75</property>
-  <property name="kdenlive:sequenceproperties.zoom">9</property>
+  <property name="kdenlive:sequenceproperties.zoom">12</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
 </property>
   <property name="kdenlive:sequenceproperties.guides">[
 ]
 </property>
-  <property name="kdenlive:sequenceproperties.previewchunks">0-75</property>
   <property name="kdenlive:sequenceproperties.dirtypreviewchunks"/>
   <track producer="producer0"/>
   <track producer="tractor0"/>
@@ -1540,14 +2966,14 @@
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter17">
+  <filter id="filter22">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter18">
+  <filter id="filter23">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
@@ -1555,105 +2981,10 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain3" out="00:00:59.726">
-  <property name="length">1791</property>
-  <property name="eof">pause</property>
-  <property name="resource">/tmp/1984 Apple's Macintosh Commercial (HD) [VtvjbmoDx-I].webm</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">29.97</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">480</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">libdav1d</property>
-  <property name="meta.media.0.codec.long_name">dav1d AV1 decoder by VideoLAN</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
-  <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
-  <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
-  <property name="meta.attr.0.stream.DURATION.markup">00:00:59.726000000</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">48000</property>
-  <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.layout">stereo</property>
-  <property name="meta.media.1.codec.name">opus</property>
-  <property name="meta.media.1.codec.long_name">Opus</property>
-  <property name="meta.media.1.codec.bit_rate">0</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.DURATION.markup">00:00:59.748000000</property>
-  <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6av01mp41</property>
-  <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
-  <property name="meta.attr.MINOR_VERSION.markup">0</property>
-  <property name="meta.attr.ENCODER.markup">Lavf61.7.100</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="format">3</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="vstream">0</property>
-  <property name="meta.media.frame_rate_num">30000</property>
-  <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">480</property>
-  <property name="meta.media.aspect_ratio">1</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="astream">0</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">4</property>
-  <property name="kdenlive:control_uuid">{01780577-9eb4-4f25-9ffd-ee7419d467df}</property>
-  <property name="mute_on_pause">0</property>
-  <property name="kdenlive:clip_type">0</property>
-  <property name="kdenlive:file_size">2774368</property>
-  <property name="kdenlive:file_hash">e38309aebfdfdab3ab390f2721150bdb</property>
-  <property name="kdenlive:monitorPosition">18</property>
- </chain>
- <chain id="chain4" out="00:04:13.914">
-  <property name="length">7610</property>
-  <property name="eof">pause</property>
-  <property name="resource">/tmp/RFC 2119 [2121755313].m4a</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">44100</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.layout">stereo</property>
-  <property name="meta.media.0.codec.name">aac</property>
-  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.0.codec.bit_rate">160000</property>
-  <property name="meta.attr.0.stream.handler_name.markup">SoundHandler</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">isom</property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="astream">0</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">5</property>
-  <property name="kdenlive:control_uuid">{009b1c32-411a-4930-8827-04d4958b4b35}</property>
-  <property name="kdenlive:clip_type">1</property>
-  <property name="kdenlive:file_size">5122824</property>
-  <property name="kdenlive:file_hash">ba0229342f381cc6d8a3f3067a62588b</property>
-  <property name="kdenlive:monitorPosition">0</property>
- </chain>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.2">Sequences</property>
   <property name="kdenlive:sequenceFolder">2</property>
+  <property name="kdenlive:docproperties.activetimeline">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.binsort">0</property>
   <property name="kdenlive:docproperties.browserurl">/home/moti/Documents/</property>
@@ -1713,6 +3044,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">25.04.2</property>
+  <property name="kdenlive:docproperties.opensequences">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="kdenlive:docproperties.previewextension">mp4</property>
   <property name="kdenlive:docproperties.previewparameters">c:v=h264_vaapi g=1 bf=0 vprofile=main preset=fast</property>
   <property name="kdenlive:docproperties.profile">atsc_1080p_2997</property>
@@ -1723,7 +3055,7 @@
   <property name="kdenlive:docproperties.proxyparams"/>
   <property name="kdenlive:docproperties.proxyresize">640</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.sessionid">{a56f7820-52f9-4e0e-a2ca-459e251e6974}</property>
+  <property name="kdenlive:docproperties.sessionid">{a939b373-5df7-40a9-9a1f-8bd56ad7a6d0}</property>
   <property name="kdenlive:docproperties.uuid">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
   <property name="kdenlive:expandedFolders"/>
@@ -1731,15 +3063,13 @@
   <property name="kdenlive:extraBins">project_bin:-1:0</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:documentnotesversion">2</property>
-  <property name="kdenlive:docproperties.opensequences">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
-  <property name="kdenlive:docproperties.activetimeline">{cd07f631-090f-4e05-b545-ef75e8713eec}</property>
   <property name="xml_retain">1</property>
-  <entry in="00:00:00.000" out="00:00:00.000" producer="{cd07f631-090f-4e05-b545-ef75e8713eec}"/>
   <entry in="00:00:00.000" out="00:00:59.726" producer="chain3"/>
   <entry in="00:00:00.000" out="00:04:13.914" producer="chain4"/>
+  <entry in="00:00:00.000" out="00:04:13.647" producer="tractor4"/>
  </playlist>
- <tractor id="tractor4" in="00:00:00.000" out="00:04:13.647">
+ <tractor id="tractor5" in="00:00:00.000" out="00:04:15.983">
   <property name="kdenlive:projectTractor">1</property>
-  <track in="00:00:00.000" out="00:04:13.647" producer="{cd07f631-090f-4e05-b545-ef75e8713eec}"/>
+  <track in="00:00:00.000" out="00:04:15.983" producer="tractor4"/>
  </tractor>
 </mlt>
